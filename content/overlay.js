@@ -123,7 +123,7 @@ var spojranktracker = {
 		}
 		
 		spojranktracker_recheck = Number(this.prefs.getCharPref("recheck"));
-		if (!spojranktracker_recheck || spojranktracker_recheck <=0){
+		if (!spojranktracker_recheck || spojranktracker_recheck <=0 || spojranktracker_recheck>99){
 			spojranktracker_recheck = 2;
 			alert ("Please enter minutes in range 1..99");
 			this.prefs.setCharPref("recheck","2");

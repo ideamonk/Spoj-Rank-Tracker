@@ -15,7 +15,7 @@
     <label control="symbol" value="SPOJ Username: "/>
     <textbox preference="pref_symbol" id="symbol" maxlength="100" class="pref-user"/>
 	<label control="symbol" value="Refresh interval: "/>
-    <textbox preference="pref_symbol2" id="symbol2" maxlength="2" class="pref-refresh"/>
+    <textbox preference="pref_symbol2" id="symbol2" maxlength="3" class="pref-refresh"/>
 	<label control="symbol" value="minutes"/>
   </hbox>
 </prefpane>
