@@ -1,0 +1,5 @@
+content	spojranktracker	content/
+locale	spojranktracker	en-US	locale/en-US/
+skin	spojranktracker	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://spojranktracker/content/firefoxOverlay.xul
+style	chrome://global/content/customizeToolbar.xul	chrome://spojranktracker/skin/overlay.css

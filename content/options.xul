@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://spojranktracker/skin/overlay.css" type="text/css"?> 
+<prefwindow id="spojranktracker-prefs"
+     title="SPOJ Rank Tracker Preferences"
+ 
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<prefpane id="srt-userpane" label="Username" oncommand="spojranktracker.Test()">
+  <preferences>
+    <preference id="pref_symbol" name="srt.username" type="string"/>
+	<preference id="pref_symbol2" name="srt.recheck" type="string"/>
+  </preferences>
+  
+  <hbox align="center">
+    <label control="symbol" value="SPOJ Username: "/>
+    <textbox preference="pref_symbol" id="symbol" maxlength="100" class="pref-user"/>
+	<label control="symbol" value="Refresh interval: "/>
+    <textbox preference="pref_symbol2" id="symbol2" maxlength="2" class="pref-refresh"/>
+	<label control="symbol" value="minutes"/>
+  </hbox>
+</prefpane>
+ 
+</prefwindow>

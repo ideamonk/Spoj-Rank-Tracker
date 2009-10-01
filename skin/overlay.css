@@ -1,0 +1,34 @@
+/* This is just an example.  You shouldn't do this. */
+/*
+#spojranktracker-hello
+{
+  color: red ! important;
+}
+#spojranktracker-toolbar-button
+{
+  list-style-image: url("chrome://spojranktracker/skin/toolbar-button.png");
+  -moz-image-region: rect(0px 24px 24px 0px);
+}
+#spojranktracker-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 24px 48px  0px);
+}
+[iconsize="small"] #spojranktracker-toolbar-button
+{
+  -moz-image-region: rect( 0px 40px 16px 24px);
+}
+[iconsize="small"] #spojranktracker-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 40px 40px 24px);
+}
+*/
+.srt-rank{
+	color:green;
+	font-weight:bold;
+}
+.pref-refresh{
+	width:30px;
+}
+.pref-user{
+	width:100px;
+}
