@@ -4,7 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>spojranktracker@abhishek.mishra</em:id>
     <em:name>SPOJ Rank Tracker</em:name>
-    <em:version>1.03</em:version>
+    <em:version>1.04</em:version>
     <em:creator>Abhishek Mishra - ideamonk@gmail.com</em:creator>
     <em:description>SPOJ Rank Tracker helps you keep a track of your rank and points you scored on Sphere Online Judge (SPOJ) http://spoj.pl. There are more than 47,000 programmers that compete on SPOJ, the ranks are under constant turbulence. This addon helps you maintain continuity in your SPOJ submissions. All the best, developed by http://ideamonk.blogspot.com , Happy Coding :)</em:description>
 	<em:optionsURL>chrome://spojranktracker/content/options.xul</em:optionsURL>
